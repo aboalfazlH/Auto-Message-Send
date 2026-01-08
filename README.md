@@ -60,6 +60,7 @@ Help the developer build other products by supporting him
 A gift to those who need it, and the needy of the needy
 
 ## نسخه فارسی
+<div dir="rtl">
 یک سایت حرفه ای برای انجام اتوماتیک ارسال پیام در تمام گروه ها
 
 ### ویژگی ها
@@ -117,3 +118,4 @@ python manage.py runserver
 
 ### سخن پایانی
 تقدیم به کسانی که نیاز دارند،و بی نیاز از بی نیاز ها
+</div>
