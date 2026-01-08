@@ -35,7 +35,7 @@ A professional site for automatically sending messages to all groups
 1. Download sources
 
 ```bash
-git clone https://github.com/aboalfazlH/Auto-Message.git
+git clone https://github.com/aboalfazlH/Auto-Message-Send.git
 python -m venv venv
 source .\venv\Scripts\activate # Windows: .\venv\Scripts\activate
 ```
@@ -94,7 +94,7 @@ A gift to those who need it, and the needy of the needy
 1. دانلود منابع
 
 ```bash
-git clone https://github.com/aboalfazlH/Auto-Message.git
+git clone https://github.com/aboalfazlH/Auto-Message-Send.git
 python -m venv venv
 source .\venv\Scripts\activate # ویندوز: .\venv\Scripts\activate
 ```
