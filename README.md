@@ -60,7 +60,7 @@ Help the developer build other products by supporting him
 A gift to those who need it, and the needy of the needy
 
 ## نسخه فارسی
-<div dir=rtl>
+<div dir="rtl">
 یک سایت حرفه ای برای انجام اتوماتیک ارسال پیام در تمام گروه ها
 
 ### ویژگی ها
