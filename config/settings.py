@@ -14,18 +14,23 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
-
-INSTALLED_APPS = [
+DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_full_kit',
-    'accounts'
 ]
+THIRD_PARTY_APPS = [
+    'django_full_kit',
+]
+LOCAL_APPS = [
+    'accounts',
+    'core'
+]
+
+INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
