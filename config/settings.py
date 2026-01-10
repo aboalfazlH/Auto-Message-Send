@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from pathlib import Path
 import os
-
+from django.urls import reverse_lazy
 
 load_dotenv()
 
@@ -47,7 +47,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/"templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -4,7 +4,7 @@ from django_full_kit.django_full_kit.models import AdvancedBaseUser,PhoneNumberF
 
 class CustomUser(AdvancedBaseUser):
     phone_number = PhoneNumberField(
-    verbose_name=_("Phone number"),
+    verbose_name="شماره تلفن",
     unique=True,
     blank=False,
     null=False,

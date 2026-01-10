@@ -11,6 +11,7 @@ class Bale_Channel(models.Model):
 
 class Eitaa_Channel(models.Model):
     channel_username = models.CharField(verbose_name="شناسه کانال",unique=True)
+    bot_token = models.CharField(verbose_name="توکن ربات")
 
 class Telegram_Channel(models.Model):
     channel_username = models.CharField(verbose_name="شناسه کانال",unique=True)
