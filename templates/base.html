@@ -16,7 +16,20 @@
     </title>
 </head>
 <body>
-    <header></header>
+    <header>
+    {% if user.is_authenticated %}
+    <form action="{% url 'logout' %}" method="post">
+    {% csrf_token %}
+    <p>سلام {{ user }}</p>
+    {% if user.is_staff %}
+    <a href="{% url 'admin:index' %}">داشبورد</a>    
+    {% endif %}
+    <button type="submit">خروج</button>
+    </form>
+    {% else %}
+    <a href="{% url 'login' %}">ورود</a>
+    {% endif %}
+    </header>
     <main>
     {% block content %}
     
